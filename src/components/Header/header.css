@@ -1,0 +1,20 @@
+.header{
+    background-color: #004ba8;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin:20px 0px 100px 0px;
+
+}
+.headerlist{
+    display: flex;
+    gap:40px
+}
+.headerlistitems{
+    display: flex;
+    gap:5px;
+}
