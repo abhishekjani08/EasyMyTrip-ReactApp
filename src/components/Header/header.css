@@ -7,7 +7,7 @@
 .headerContainer{
     width: 100%;
     max-width: 1024px;
-    margin:20px 0px 100px 0px;
+    margin:20px 0px 50px 0px;
 
 }
 .headerlist{
@@ -17,4 +17,65 @@
 .headerlistitems{
     display: flex;
     gap:5px;
+    border:1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.headerlistitems:hover {
+    background-color: white;
+    color: #004ba8;
+  }
+
+
+.headertitle{
+    margin-top: 20px;
+    width: 100%;
+}
+.headerDesc{
+    margin-top: 5px;
+    width: 100%;
+}
+.signin{
+    margin-top: 10px;
+    padding: 5px 10px;
+    color:#004ba8;
+    border-radius: 5px;
+    border-color:#3E78B2 ;
+    font-weight: 700;
+    background-color: white;
+}
+.headerSearch{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color:#3E78B2;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 5px ;
+}
+.headersearchinput{
+    width: 210px;
+    padding: 5px 10px;
+    color:#004ba8;
+    border-radius: 5px;
+    border-color:#3E78B2 ;
+    font-weight: 500;
+    background-color: white;
+}
+.headerSearchItem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.headerBtn{
+    margin:5px 5px;
+    padding: 5px 10px;
+    color:#004ba8;
+    border-radius: 5px;
+    border-color:#3E78B2 ;
+    font-weight: 400;
+    background-color: white;
 }
