@@ -1,0 +1,31 @@
+.featuredheader{
+    color: #004ba8;
+}
+.featured{
+    justify-content:space-between;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+    z-index: 1;
+    margin: 20px;
+}
+.featuredImg{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.featuredItem{
+    position: relative;
+    color: white;
+    overflow: hidden;
+    height: 250px;
+  text-shadow: 2px 2px #000000;
+}
+
+.featuredTitle{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}

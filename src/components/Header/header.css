@@ -8,7 +8,7 @@
 .headerContainer {
     width: 100%;
     max-width: 1024px;
-    margin: 20px 0px 50px 0px;
+    margin: 20px 0px 20px 0px;
 
 }
 
@@ -93,6 +93,7 @@
 .date {
     position: absolute;
     bottom: 55px;
+    z-index: 2;
 }
 
 .options {
@@ -103,6 +104,7 @@
     font-weight: 500;
     border-radius: 5px;
     border: 1px solid;
+    z-index: 2;
     /* box-shadow:; */
 }
 
