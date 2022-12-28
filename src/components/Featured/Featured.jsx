@@ -6,7 +6,7 @@ import kolkata from './images/kolkata.jpg'
 export const Featured = () => {
   return (
     <div className="featuredheader">
-    <h1>Our Trips to the best places in India!<br></br> </h1>
+    <h1>The Most searched cars<br></br> </h1>
     <div className='featured'>
     
         <div className="featuredItem">

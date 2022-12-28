@@ -1,5 +1,5 @@
 .header {
-    background-color: #004ba8;
+    background-color: #F76E11;
     display: flex;
     color: white;
     justify-content: center;
@@ -27,7 +27,7 @@
 
 .headerlistitems:hover {
     background-color: white;
-    color: #004ba8;
+    color: #FF9F45;
 }
 
 
@@ -44,7 +44,7 @@
 .signin {
     margin-top: 10px;
     padding: 5px 10px;
-    color: #004ba8;
+    color: #F76E11;
     border-radius: 5px;
     border-color: #3E78B2;
     font-weight: 700;
@@ -57,8 +57,9 @@
     align-items: center;
     border: 2px solid white;
     border-radius: 5px;
-    background-color: #3E78B2;
+    background-color: #ff8f44;
     margin-top: 20px;
+    box-shadow: 1px 1px 5px 1px black;
     justify-content: space-between;
     padding: 5px;
 }

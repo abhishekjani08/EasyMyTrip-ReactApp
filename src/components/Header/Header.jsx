@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHotel, faPlane, faCar, faTrain, faLocationDot, faCalendarDays, faBed } from "@fortawesome/free-solid-svg-icons"
+import { faCarSide, faCarRear, faCar, faBus, faLocationDot, faCalendarDays, faBed } from "@fortawesome/free-solid-svg-icons"
 import "./header.css"
 import { DateRange } from 'react-date-range';
 import { useState } from 'react';
@@ -42,24 +42,24 @@ const Header = () => {
                 <div className="headerContainer">
                     <div className="headerlist">
                         <div className="headerlistitems">
-                            <FontAwesomeIcon icon={faHotel} />
-                            <span>Hotels</span>
-                        </div>
-                        <div className="headerlistitems">
-                            <FontAwesomeIcon icon={faPlane} />
-                            <span>Planes</span>
-                        </div>
-                        <div className="headerlistitems">
                             <FontAwesomeIcon icon={faCar} />
-                            <span>Car Rentals</span>
+                            <span>Sedan</span>
                         </div>
                         <div className="headerlistitems">
-                            <FontAwesomeIcon icon={faTrain} />
-                            <span>Trains</span>
+                            <FontAwesomeIcon icon={faCarSide} />
+                            <span>SUV</span>
+                        </div>
+                        <div className="headerlistitems">
+                            <FontAwesomeIcon icon={faCarRear} />
+                            <span>Luxury</span>
+                        </div>
+                        <div className="headerlistitems">
+                            <FontAwesomeIcon icon={faBus} />
+                            <span>Bus</span>
                         </div>
                     </div>
                     <h1 className="headertitle">
-                        Ease your trip now!
+                        Book your Car now!
                     </h1>
                     <p className="headerDesc">
                         With a alot of Discounts and savings upto 30% and more..
@@ -71,7 +71,7 @@ const Header = () => {
                         <div className="headerSearchItem">
                             <FontAwesomeIcon icon={faLocationDot} />
 
-                            <input type="text" className='headersearchinput' placeholder='Where do you want to visit?'></input>
+                            <input type="text" className='headersearchinput' placeholder='Search Cars or Brands Eg.Tata'></input>
                         </div>
                         <div className="headerSearchItem">
                             <FontAwesomeIcon icon={faCalendarDays} />
