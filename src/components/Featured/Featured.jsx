@@ -13,7 +13,7 @@ export const Featured = () => {
             <img src={mumbai} alt="" className="featuredImg" />
             <div className="featuredTitle">
                 <h1>Sedan Cars</h1>
-                <h3>Book Now</h3>
+                <h3>Book Now!</h3>
             </div>
         </div>
 
@@ -21,7 +21,7 @@ export const Featured = () => {
             <img src={chennai} alt="" className="featuredImg" />
             <div className="featuredTitle">
                 <h1>SUV Cars</h1>
-                <h3>Book Now</h3>
+                <h3>Book Now!</h3>
             </div>
         </div>
 
@@ -29,7 +29,7 @@ export const Featured = () => {
             <img src={kolkata} alt="" className="featuredImg" />
             <div className="featuredTitle">
                 <h1>Luxury Cars</h1>
-                <h3>Book Now</h3>
+                <h3>Book Now!</h3>
             </div>
         </div>
         </div>
